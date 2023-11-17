@@ -1,0 +1,3 @@
+services:
+  ffc-demo-02:
+    command: npm run start:debug

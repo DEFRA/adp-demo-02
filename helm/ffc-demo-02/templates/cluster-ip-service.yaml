@@ -1,0 +1,3 @@
+{{- include "adp-helm-library.cluster-ip-service" (list . "ffc-demo-02.cluster-ip-service") -}}
+{{- define "ffc-demo-02.cluster-ip-service" -}}
+{{- end -}}

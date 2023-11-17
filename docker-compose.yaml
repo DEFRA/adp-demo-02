@@ -1,0 +1,10 @@
+services:
+  ffc-demo-02:
+    build:
+      context: .
+      target: production
+    image: ffc-demo-02
+    container_name: ffc-demo-02
+    environment:
+      APPINSIGHTS_CLOUDROLE: ffc-demo-02-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}
